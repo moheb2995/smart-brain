@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  margin: 2%;
+  text-shadow: rgb(255, 0, 0) 0px 0 8px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: end;
+}
+
+body{
+  background: linear-gradient(85deg,rgb(180, 59, 59),rgb(47, 45, 56));
+}
+
+.logo{
+  width: 100%;
+}
+
+.Tilt-inner{
+  margin: 1%;
+  background-color: rgba(128, 128, 128,.2);
+  border-radius: 30%
+}
+
+.div{
+
+  width: 90vw;
+  /* height: 100vh; */
+  background : 
+  radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+  radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+  radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+  radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+  radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+  radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+  radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+  radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+  linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+  linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+  background-color: #300;
+  background-size: 100px 100px;
+  padding: 2.5%;
+}
+
+.divP{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 2%;
+}
+.divc{
+  display: flex;
+  justify-content:space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-in{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  font-size: large;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  padding: 1%;
+  color: red;
+  background-color: rgb(47, 45, 56);
 }
+
+.input{
+  background-color: seashell;
+  width: 85vw;
+}
+
+.xxlarg{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.ma-b{
+  margin-bottom: 2.5%;
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.position{
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+
+.card{
+  border: #300 solid;
+  width: 450px;
+  justify-content: center;
+  padding: 1px;
+  text-align: center;
+  margin:auto ;
+  margin-top: 100px;
+}
+
+.in{
+  width: 100%;
+  padding: 2%;
+}
+
+.h{
+  text-align: center;
+  font-size: xxx-large;
+}
+
